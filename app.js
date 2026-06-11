@@ -59,8 +59,8 @@ function renderDashboard(filter) {
   if (b.id === 19) return 1;
   if (a.featured && !b.featured) return -1;
   if (!a.featured && b.featured) return 1;
-  return 0;
-});
+  return 0;});
+  
   if (filter) {
     const q = filter.toLowerCase();
     projects = projects.filter(p =>
