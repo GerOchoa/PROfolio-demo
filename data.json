@@ -24,48 +24,6 @@
   ],
   "projects": [
     {
-      "id": 19,
-      "title": "PROfolio – Sistema de gestión y documentación de proyectos",
-      "category": "Transformación Digital",
-      "status": "Completado",
-      "featured": true,
-      "period": "May 2026 – Jun 2026",
-      "need": "Organizar, documentar y comunicar proyectos de forma clara y profesional.",
-      "summary": "La información de proyectos suele estar desorganizada o difícil de presentar.\nJunto con la IA se definió un modelo estándar para proyectos incluyendo: necesidad, problema, solución, resultado, tecnologías, habilidades y evidencias.",
-      "solution": "Desarrollé esta aplicación que permite cargar, gestionar y exportar proyectos en formato estructurado, incluyendo generación de PDF estilo portfolio.",
-      "result": "Sistema centralizado que facilita la documentación, presentación y reutilización del conocimiento generado en proyectos.",
-      "observations": "· Convierte mi experiencia en un activo.\n· Redefine la forma de contar proyectos.\n· Permite generar portfolio profesional automáticamente.\n· Es un produto propio, no una solución puntual.",
-      "topics": [
-        "Gestión de Procesos",
-        "Documentación"
-      ],
-      "skills": [
-        "Desarrollo de aplicaciones",
-        "Consultoría"
-      ],
-      "technologies": [
-        "PyQt6",
-        "Python",
-        "SQL",
-        "pdf"
-      ],
-      "evidences": [
-        {
-          "type": "Captura",
-          "title": "Pantalla de la aplicación",
-          "description": "Pantalla principal de la aplicación."
-        }
-      ],
-      "lessons": [
-        "Documentar bien es tan valioso como desarrollar.",
-        "Estructurar la información mejora la comunicación profesional.",
-        "Un buen repertorio permite escalar conocimiento.",
-        "La claridad en narrativa técnica es clave para crecer profesionalmente."
-      ]
-    }
-  ]
-},
-    {
       "id": 1,
       "title": "Evaluador de RobaTiempos",
       "category": "Analítica de Datos",
@@ -847,5 +805,46 @@
         "Controlar recursos físicos (espacios) agrega complejidad respecto a sistemas digitales.",
         "La sincronización entre múltiples dispositivos es un desafío clave en arquitectura."
       ]
+    },
+    {
+      "id": 19,
+      "title": "PROfolio – Sistema de gestión y documentación de proyectos",
+      "category": "Transformación Digital",
+      "status": "Completado",
+      "featured": true,
+      "period": "May 2026 – Jun 2026",
+      "need": "Organizar, documentar y comunicar proyectos de forma clara y profesional.",
+      "summary": "La información de proyectos suele estar desorganizada o difícil de presentar.\nJunto con la IA se definió un modelo estándar para proyectos incluyendo: necesidad, problema, solución, resultado, tecnologías, habilidades y evidencias.",
+      "solution": "Desarrollé esta aplicación que permite cargar, gestionar y exportar proyectos en formato estructurado, incluyendo generación de PDF estilo portfolio.",
+      "result": "Sistema centralizado que facilita la documentación, presentación y reutilización del conocimiento generado en proyectos.",
+      "observations": "· Convierte mi experiencia en un activo.\n· Redefine la forma de contar proyectos.\n· Permite generar portfolio profesional automáticamente.\n· Es un produto propio, no una solución puntual.",
+      "topics": [
+        "Gestión de Procesos",
+        "Documentación"
+      ],
+      "skills": [
+        "Desarrollo de aplicaciones",
+        "Consultoría"
+      ],
+      "technologies": [
+        "PyQt6",
+        "Python",
+        "SQL",
+        "pdf"
+      ],
+      "evidences": [
+        {
+          "type": "Captura",
+          "title": "Pantalla de la aplicación",
+          "description": "Pantalla principal de la aplicación."
+        }
+      ],
+      "lessons": [
+        "Documentar bien es tan valioso como desarrollar.",
+        "Estructurar la información mejora la comunicación profesional.",
+        "Un buen repertorio permite escalar conocimiento.",
+        "La claridad en narrativa técnica es clave para crecer profesionalmente."
+      ]
     }
-    
+  ]
+}  
