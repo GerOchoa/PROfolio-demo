@@ -54,7 +54,13 @@ function renderSidebar() {
 }
 
 function renderDashboard(filter) {
-  let projects = DATA.projects;
+  let projects = [...DATA.projects].sort((a, b) => {
+  if (a.id === 19) return -1;
+  if (b.id === 19) return 1;
+  if (a.featured && !b.featured) return -1;
+  if (!a.featured && b.featured) return 1;
+  return 0;
+});
   if (filter) {
     const q = filter.toLowerCase();
     projects = projects.filter(p =>
