@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PROfolio - Portfolio Profesional</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-layout">
+  <aside class="sidebar" id="sidebar"></aside>
+  <main class="main-content">
+    <div class="view active" id="dashboard-view">
+      <div class="dashboard-header">
+        <h1>Proyectos</h1>
+        <input class="search-input" type="text" placeholder="Buscar proyectos..." oninput="onSearch(this.value)">
+      </div>
+      <div class="project-grid" id="dashboard-grid"></div>
+    </div>
+    <div class="view" id="detail-view">
+      <div class="detail-toolbar">
+        <button class="back-btn" onclick="goBack()">← Volver</button>
+      </div>
+      <div class="detail-body" id="detail-body"></div>
+    </div>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

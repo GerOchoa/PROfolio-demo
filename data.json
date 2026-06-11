@@ -1,0 +1,850 @@
+{
+  "profile": {
+    "name": "Pedro German Ochoa",
+    "title": "Ciencia de Datos / Analisis Funcional / Consultor",
+    "email": "pger8a@gmail.com",
+    "phone": "2664317407",
+    "about": "Profesional con experiencia en diseño de soluciones técnicas, automatización de procesos e integración de sistemas. Orientado a la mejora continua con enfoque en eficiencia operacional."
+  },
+  "stats": {
+    "total": 19,
+    "featured": 5,
+    "categories": 9
+  },
+  "categories": [
+    "Automatización",
+    "Business Intelligence",
+    "Transformación Digital",
+    "Seguridad Electrónica",
+    "Desarrollo de Software",
+    "Analítica de Datos",
+    "Arquitectura de Sistemas",
+    "Gestión de Proyectos",
+    "Consultoría"
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Evaluador de RobaTiempos",
+      "category": "Analítica de Datos",
+      "status": "Completado",
+      "featured": false,
+      "period": "Oct 2025 – Nov 2025",
+      "need": "Detectar pérdidas de tiempo no visibles en la operativa diaria. \nLos operadores de CCTV tenían malversadores de tiempo y actividades distractivas.",
+      "summary": "No existían datos objetivos sobre actividades distractivas. \nAl atender diferentes situaciones se perdía tiempo o se desviaba la atención de las actividades de operación diarias. Por lo que se propuso evaluar de alguna forma la naturaleza y la frecuencia de esas tareas \"Roba Tiempos\" durante un lapso de tiempo suficiente para analizarlas.",
+      "solution": "Diseñe una sencilla aplicación de consola utilizando Python y mapeo de teclas para identificar las actividades malversadoras de tiempo más frecuentes. Los resultados se volcaron en un archivo \".csv\" para ser analizados en Jupyter Notebook.",
+      "result": "Identificación de patrones de distracción y optimización de habitos operativos.",
+      "observations": "",
+      "topics": [
+        "Automatización",
+        "Machine Learning"
+      ],
+      "skills": [
+        "Análisis Funcional",
+        "Resolución de Problemas",
+        "Diseño de Soluciones",
+        "Desarrollo de aplicaciones"
+      ],
+      "technologies": [
+        "Python",
+        "Excel",
+        "CSV",
+        "Pandas"
+      ],
+      "evidences": [
+        {
+          "type": "Captura",
+          "title": "Pantalla de Aplicación",
+          "description": "Captura de pantalla de la aplicación en funcionamiento"
+        },
+        {
+          "type": "Captura",
+          "title": "Grafico Robatiempos",
+          "description": "Grafico de barras comparando las actividades más distractivas."
+        }
+      ],
+      "lessons": [
+        "Primeros proyectos data suelen ser exploratorios, pero igual generan valor.",
+        "El seguimiento de actividades permite transformar comportamientos cotidianos en datos analizables.",
+        "El análisis de tareas revela patrones ocultos que impactan el manejo del tiempo."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Análisis y Diseño de Base de Datos de equipos de monitoreo",
+      "category": "Arquitectura de Sistemas",
+      "status": "Completado",
+      "featured": false,
+      "period": "Oct 2025 – Feb 2026",
+      "need": "Organizar la información de equipos de grabación y monitoreo.",
+      "summary": "Datos desordenados, inconsistentes y sin estructura relacional.",
+      "solution": "A partir de un relevamiento por parte del área limpié los datos y diseñé una base relacional normalizada y robusta.",
+      "result": "Información estructurada, consistente y lista para análisis y sistemas operativos.",
+      "observations": "El proyecto se dió por concluído, aunque el mantenimiento de la Base de Datos de equipo es contínuo.",
+      "topics": [
+        "Integración de Sistemas",
+        "Documentación",
+        "Estandarización de la Información",
+        "Modelado de datos"
+      ],
+      "skills": [
+        "Arquitectura",
+        "Diseño de Soluciones",
+        "Organización de la Información"
+      ],
+      "technologies": [
+        "Excel",
+        "SQL"
+      ],
+      "evidences": [
+        {
+          "type": "Captura",
+          "title": "Diseño Entidad-Relación",
+          "description": "Diseño de la base de datos luego del relevamiento, analisis y limpieza"
+        }
+      ],
+      "lessons": [
+        "Manejo correcto de activos",
+        "Antes de analizar, es crítico tener datos bien estructurados"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Sistema de aforo mediante formularios con QR",
+      "category": "Transformación Digital",
+      "status": "Completado",
+      "featured": false,
+      "period": "Oct 2025 – Actualidad",
+      "need": "Registrar de manera automática la afluencia de personas en salas.",
+      "summary": "El registro era manual o inexistente.\nVigiladores enviaban el numero de personas por hora al operador.\nDatos históricos y trazabilidad inconsistente.",
+      "solution": "Formulario de Microsoft Forms accesible mediante QR en cada sala, utilizado por el vigilador para registrar ingresos por hora.",
+      "result": "Datos centralizados de aforo, habilitando análisis histórico y visualización en dashboards.",
+      "observations": "Actualmente se utiliza por área de marketing en todas las unidades de negocio.",
+      "topics": [
+        "Automatización",
+        "Documentación",
+        "Integración de Sistemas",
+        "Power Platform"
+      ],
+      "skills": [
+        "Transformación Digital",
+        "Gestión de Cambio",
+        "Diseño de Soluciones"
+      ],
+      "technologies": [
+        "Power Automate",
+        "Power BI",
+        "SharePoint"
+      ],
+      "evidences": [
+        {
+          "type": "Captura",
+          "title": "Forms",
+          "description": "Formularios funcionando"
+        },
+        {
+          "type": "Captura",
+          "title": "Dashboard Aforo",
+          "description": "Dashboard ejemplo de aforo de San Luis"
+        }
+      ],
+      "lessons": [
+        "Digitalizar un proceso básico puede generar datos de alto valor analítico.",
+        "Pequeñas soluciones low-code pueden tener alto impacto operativo con bajo costo.",
+        "La limpieza de datos suele ser el mayor esfuerzo del proyecto.",
+        "Entender el negocio es necesario para definir correctamente entidades y relaciones."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Dashboards operativos en Power BI",
+      "category": "Business Intelligence",
+      "status": "En Progreso",
+      "featured": false,
+      "period": "Oct 2025 – Actualidad",
+      "need": "Visualizar y centralizar información operativa de múltiples fuentes.",
+      "summary": "Muchos datos dispersos sin visibilidad clara ni soporte para la toma de decisiones.\nSe identificaron fuentes clave (formularios, listas, inventario, eventos) y métricas relevantes.",
+      "solution": "Desarrollé varios dashboards interactivos en Power BI conectados a distintas fuentes (SharePoint, Forms, etc.).",
+      "result": "Visibilidad en tiempo real del estado operativo, facilitando el control, seguimiento y toma de decisiones.",
+      "observations": "",
+      "topics": [
+        "Modelado de datos",
+        "Machine Learning",
+        "Integración de Sistemas",
+        "Estandarización de la Información"
+      ],
+      "skills": [
+        "Modelado de Datos",
+        "Analítica de Datos",
+        "Visualización de Datos",
+        "Organización de la Información"
+      ],
+      "technologies": [
+        "Power BI",
+        "Excel",
+        "Power Automate",
+        "SharePoint"
+      ],
+      "evidences": [
+        {
+          "type": "Captura",
+          "title": "Dashboard 1",
+          "description": "Ejemplo Aforo de salas"
+        },
+        {
+          "type": "Captura",
+          "title": "Dashboard 2",
+          "description": "Ejemplo Dashboard informes"
+        },
+        {
+          "type": "Captura",
+          "title": "Dashboard 3",
+          "description": "Ejemplo Dashboard de estado de camaras"
+        }
+      ],
+      "lessons": [
+        "Menos visualizaciones pero bien diseñadas generan más valor que dashboards sobrecargados.",
+        "Los usuarios operativos necesitan información clara e inmediata, no análisis complejos.",
+        "Un dashboard efectivo evoluciona iterativamente según el feedback de los usuarios.",
+        "La estandarización de fuentes (Forms, SharePoint, etc.) simplifica enormemente el ecosistema de BI."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Gestión de Órdenes de Trabajo - Power App",
+      "category": "Transformación Digital",
+      "status": "Completado",
+      "featured": false,
+      "period": "Oct 2025 – Nov 2025",
+      "need": "Gestionar órdenes de trabajo de forma centralizada y trazable.",
+      "summary": "Las tareas se gestionaban de forma manual o dispersa, sin seguimiento claro ni historial.\nAlgunas tareas no se comunicaban a la central.",
+      "solution": "Desarrollé una aplicación en Power Apps conectada a listas de SharePoint para la carga, asignación y seguimiento de órdenes de trabajo.\nSe identificaron estados, responsables, prioridades y flujo de vida de las órdenes.",
+      "result": "Centralización de tareas, mejora en la organización operativa y mayor control del estado de trabajos.",
+      "observations": "",
+      "topics": [
+        "Automatización",
+        "Power Platform"
+      ],
+      "skills": [
+        "Gestión de Cambio",
+        "Diseño de Soluciones",
+        "Desarrollo de aplicaciones"
+      ],
+      "technologies": [
+        "Power Apps",
+        "Power Automate",
+        "SharePoint"
+      ],
+      "evidences": [
+        {
+          "type": "Captura",
+          "title": "Pantalla Central",
+          "description": "Pantalla principal"
+        },
+        {
+          "type": "Captura",
+          "title": "Historial",
+          "description": "Pantalla de visualización de OTs"
+        }
+      ],
+      "lessons": [
+        "Las soluciones low-code permiten implementar sistemas funcionales con alta velocidad y bajo costo.",
+        "La adopción depende de una interfaz simple y clara para el usuario final.",
+        "Estandarizar procesos reduce ambigüedad y mejora la eficiencia del equipo.",
+        "Integrar con otras herramientas (BI, notificaciones) potencia el valor del sistema."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Calculadoras de Apuestas (Dados y Ruleta)",
+      "category": "Desarrollo de Software",
+      "status": "Completado",
+      "featured": false,
+      "period": "Nov 2025 – Nov 2025",
+      "need": "Calcular pagos y evaluar distintos escenarios de apuestas.",
+      "summary": "Los cálculos manuales eran propensos a error y poco prácticos, además de presentar una distracción para los operadores.",
+      "solution": "Consulté a referentes sobre las reglas de juego, tipos de apuestas y estructuras de pago.\nDesarrollé una aplicación en Python para calcular apuestas de ruleta y dados, permitiendo simular resultados y guardarlos en un archivo para control.",
+      "result": "Mayor precisión en cálculos y posibilidad de analizar distintos escenarios de apuestas, archivando el registro de ganancias o pérdidas.",
+      "observations": "",
+      "topics": [
+        "Automatización"
+      ],
+      "skills": [
+        "Desarrollo de aplicaciones",
+        "Diseño de Soluciones",
+        "Resolución de Problemas"
+      ],
+      "technologies": [
+        "Python"
+      ],
+      "evidences": [
+        {
+          "type": "Captura",
+          "title": "Dados",
+          "description": "Aplicación de calculo para apuestas de Dados"
+        },
+        {
+          "type": "Captura",
+          "title": "Ruleta",
+          "description": "Captura de aplicación para calculo de Ruleta"
+        }
+      ],
+      "lessons": [
+        "La programación permite validar rápidamente escenarios hipotéticos.",
+        "Automatizar cálculos reduce errores humanos, mejora la confiabilidad y reduce tiempo."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Aplicación de gestión de turnos (React + Supabase + Android)",
+      "category": "Desarrollo de Software",
+      "status": "Completado",
+      "featured": true,
+      "period": "Nov 2025 – Ene 2026",
+      "need": "Organizar y gestionar los turnos de operadores de forma eficiente.",
+      "summary": "La asignación de turnos era manual en un archivo Excel (aunque lo sigue siendo), poco clara y difícil de actualizar o consultar.",
+      "solution": "Se definieron reglas de asignación, disponibilidad, visualización y acceso por usuario.\nDesarrollé una aplicación fullstack: frontend en React, backend en Supabase y app Android para acceso móvil.\nMediante un login por legajo y contraseña, tanto los operadores como la central pueden operar con la aplicación Web y Móvil.",
+      "result": "Sistema centralizado de gestión de turnos con acceso multiplataforma, mejorando la organización, la disponibilidad y visibilidad operativa.",
+      "observations": "Aún se utiliza el cargado en excel.",
+      "topics": [
+        "Gestión de Procesos",
+        "Automatización",
+        "Integración de Sistemas"
+      ],
+      "skills": [
+        "Desarrollo de aplicaciones",
+        "Diseño de Soluciones",
+        "Gestión de Cambio",
+        "Resolución de Problemas",
+        "Liderazgo Técnico"
+      ],
+      "technologies": [
+        "React",
+        "SQL",
+        "TypeScript",
+        "Android"
+      ],
+      "evidences": [
+        {
+          "type": "Captura",
+          "title": "Login",
+          "description": "Pantalla de Login"
+        },
+        {
+          "type": "Captura",
+          "title": "Pantallas Varias",
+          "description": "Pantallas de la aplicación. Tarjetas de turno"
+        },
+        {
+          "type": "Documento",
+          "title": "Manual",
+          "description": "Manual de usuario."
+        }
+      ],
+      "lessons": [
+        "Las apps operativas necesitan priorizar usabilidad y rapidez de acceso.",
+        "Separar frontend, backend y lógica mejora la escalabilidad del sistema.",
+        "Implementar autenticación y roles es fundamental en sistemas multiusuario.",
+        "Construir un sistema completo y no solo scripts requiere un gran nivel de conocimiento."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Libro 1: Aplicación de agenda multipestaña (gestión operativa)",
+      "category": "Desarrollo de Software",
+      "status": "Completado",
+      "featured": false,
+      "period": "Dic 2025 – Dic 2025",
+      "need": "Centralizar información operativa dispersa en una única herramienta.",
+      "summary": "Los datos como contactos, emails, vehículos y configuraciones estaban distribuidos en múltiples fuentes sin acceso rápido.",
+      "solution": "Desarrollé una aplicación en Python con interfaz multipestaña que permite gestionar múltiples datos en un solo entorno.",
+      "result": "Mejora en la organización de la información y reducción del tiempo de acceso a datos operativos.",
+      "observations": "",
+      "topics": [
+        "Automatización",
+        "Transformación Digital",
+        "Arquitectura de Sistemas"
+      ],
+      "skills": [
+        "Desarrollo de aplicaciones",
+        "Modelado de Datos",
+        "Automatización",
+        "Organización de la Información"
+      ],
+      "technologies": [
+        "Python",
+        "JSON"
+      ],
+      "evidences": [
+        {
+          "type": "Captura",
+          "title": "Libro 1",
+          "description": "Pantalla de aplicación"
+        }
+      ],
+      "lessons": [
+        "Centralizar información mejora significativamente la productividad operativa.",
+        "Agrupar funcionalidades  reduce la necesidad de múltiples herramientas.",
+        "Las aplicaciones internas pueden resolver problemas específicos con alto impacto y bajo costo."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Captura remota de imágenes de cámaras (API Dahua)",
+      "category": "Seguridad Electrónica",
+      "status": "Completado",
+      "featured": false,
+      "period": "Ene 2026 – Mar 2026",
+      "need": "Conocer el estado actualizado de equipos asignados a diferentes delegaciones.",
+      "summary": "El acceso manual a cada cámara era ineficiente y poco escalable.\nSe evaluó el uso de la API de los dispositivos Dahua para acceso remoto automatizado.",
+      "solution": "Creé un script en Python que consume la API de las grabadoras Dahua para capturar imágenes de cámaras en tiempo real de forma remota.",
+      "result": "Automatización del acceso a cámaras, reduciendo tiempos y facilitando tareas de monitoreo y control.",
+      "observations": "",
+      "topics": [
+        "Automatización",
+        "Integración de Sistemas",
+        "Documentación",
+        "Computer Vision"
+      ],
+      "skills": [
+        "Automatización",
+        "Resolución de Problemas",
+        "Organización de la Información",
+        "Diseño de Soluciones"
+      ],
+      "technologies": [
+        "Python",
+        "API"
+      ],
+      "evidences": [
+        {
+          "type": "Documento",
+          "title": "Script para captura",
+          "description": "Archivo \".py\" del script para capturas."
+        }
+      ],
+      "lessons": [
+        "Automatizar tareas repetitivas mejora la eficiencia en entornos técnicos.",
+        "Entender la infraestructura es clave para diseñar soluciones robustas.",
+        "Pequeñas automatizaciones pueden escalar a soluciones más complejas de monitoreo."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Estandarización y renombrado masivo de cámaras",
+      "category": "Seguridad Electrónica",
+      "status": "Completado",
+      "featured": false,
+      "period": "Ene 2026 – Ene 2026",
+      "need": "Organizar y estandarizar la nomenclatura de todas las cámaras del paquete de monitoreo.",
+      "summary": "Las cámaras tenían nombres inconsistentes, dificultando su identificación y gestión.",
+      "solution": "Junto con jefatura se definió un esquema de nomenclatura claro basado en ubicación y función.\nSe diseñó un script en Python que utiliza la API de Dahua para renombrar cámaras de forma remota y masiva (hasta 16 equipos por grabadora).",
+      "result": "Sistema de cámaras ordenado, facilitando la gestión, monitoreo y escalabilidad.",
+      "observations": "",
+      "topics": [
+        "Automatización",
+        "Arquitectura de Sistemas",
+        "Integración de Sistemas",
+        "Estandarización de la Información"
+      ],
+      "skills": [
+        "Diseño de Soluciones",
+        "Organización de la Información",
+        "Automatización"
+      ],
+      "technologies": [
+        "Python",
+        "API"
+      ],
+      "evidences": [
+        {
+          "type": "Documento",
+          "title": "Script para renombrar cámaras",
+          "description": "Archivo \".py\" para cambio de títulos de cámaras en una grabadora."
+        }
+      ],
+      "lessons": [
+        "La estandarización es clave para mantener sistemas escalables y mantenibles.",
+        "Nombrar correctamente los recursos mejora la trazabilidad y gestión.",
+        "Pequeñas mejoras estructurales tienen gran impacto en sistemas grandes.",
+        "Integrar herramientas permite gestionar infraestructura de forma centralizada."
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Planos de cobertura de cámaras y detección de puntos ciegos",
+      "category": "Seguridad Electrónica",
+      "status": "En Progreso",
+      "featured": false,
+      "period": "Feb 2026 – Actualidad",
+      "need": "Evaluar la cobertura real de cámaras en cada sala.",
+      "summary": "No había visibilidad clara de los puntos cubiertos y zonas sin monitoreo en las salas.",
+      "solution": "Se superpusieron imágenes reales de cámaras sobre planos de las salas, considerando ángulos de visión.\nSe utilizaron planos con representación visual del campo de cobertura y detección de puntos ciegos.",
+      "result": "Identificación de áreas sin cobertura, facilitando mejoras en la disposición de cámaras.",
+      "observations": "",
+      "topics": [
+        "Documentación",
+        "Integración de Sistemas"
+      ],
+      "skills": [
+        "Analítica de Datos",
+        "Organización de la Información",
+        "Diseño de Soluciones"
+      ],
+      "technologies": [
+        "pdf"
+      ],
+      "evidences": [],
+      "lessons": [
+        "El análisis de cobertura es clave para garantizar la efectividad de sistemas de seguridad."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Sistema de reconocimiento facial para control de accesos (ArcFace)",
+      "category": "Seguridad Electrónica",
+      "status": "Completado",
+      "featured": false,
+      "period": "Ene 2026 – Abr 2026",
+      "need": "Comparar personas con ingreso prohibido de forma automática.",
+      "summary": "Se evaluó el uso de reconocimiento facial para comparar rostros en tiempo real contra una base de datos.",
+      "solution": "Aplicación en Python utilizando ArcFace para identificar rostros y compararlos con una lista de personas restringidas.",
+      "result": "Automatización del control de accesos, aumentando la capacidad de detección (luego reemplazado por solución nativa en cámaras Dahua).",
+      "observations": "Actualmente se utiliza la tecnología en cámaras Dahua con reconocimiento facial y alertas en Dahua DSS.",
+      "topics": [
+        "Machine Learning",
+        "Automatización"
+      ],
+      "skills": [
+        "Desarrollo de aplicaciones",
+        "Automatización",
+        "Arquitectura"
+      ],
+      "technologies": [
+        "Python",
+        "IA",
+        "Procesamiento de Imagenes"
+      ],
+      "evidences": [
+        {
+          "type": "Captura",
+          "title": "Aplicación 1",
+          "description": "Funcionamiento de aplicación"
+        },
+        {
+          "type": "Captura",
+          "title": "Aplicación 2",
+          "description": "Funcionamiento de aplicación."
+        }
+      ],
+      "lessons": [
+        "Integrar modelos de visión computacional en entornos reales implica nuevos desafíos.",
+        "Las soluciones propias pueden ser reemplazadas por hardware especializado más eficiente.",
+        "La experimentación permite entender el potencial real de la IA en casos de uso concretos."
+      ]
+    },
+    {
+      "id": 13,
+      "title": "PowerApp de gestión de inventario",
+      "category": "Transformación Digital",
+      "status": "Completado",
+      "featured": true,
+      "period": "Ene 2026 – Ene 2026",
+      "need": "Controlar el inventario de activos de forma precisa y trazable.",
+      "summary": "Faltaba control sobre ingresos, egresos y estado del stock.\nArmarios se mantenían con candado con un solo responsable.",
+      "solution": "Se definieron flujos de movimientos (alta, baja, préstamo, devolución) y estructura de datos.\nDiseñe una aplicación en Power Apps (web y móbil) conectada a SharePoint para gestión de inventario, con lectura de códigos de barras y dashboards en Power BI.",
+      "result": "Mayor control, trazabilidad y transparencia en la gestión de activos.\nSolicitud para escalar y conectar a base de datos de equipos activos.",
+      "observations": "Rápidamente se convirtió en una herramienta indispensable para el área técnica.",
+      "topics": [
+        "Transformación Digital",
+        "Automatización",
+        "Arquitectura de Sistemas",
+        "Gestión de Procesos"
+      ],
+      "skills": [
+        "Desarrollo de aplicaciones",
+        "Integración de Sistemas",
+        "Organización de la Información",
+        "Diseño de Soluciones"
+      ],
+      "technologies": [
+        "Power Apps",
+        "Power Automate",
+        "SharePoint",
+        "Power BI"
+      ],
+      "evidences": [
+        {
+          "type": "Captura",
+          "title": "Captura de App 1",
+          "description": "Pantallas de Power App"
+        },
+        {
+          "type": "Captura",
+          "title": "Captura de App 2",
+          "description": "Pantallas de Power App"
+        }
+      ],
+      "lessons": [
+        "La trazabilidad es el pilar de cualquier sistema de inventario eficiente.",
+        "Integrar captura (barcode), almacenamiento (SharePoint) y visualización (BI) genera un ecosistema completo."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Generador automático de informes en Python (.docx)",
+      "category": "Automatización",
+      "status": "Completado",
+      "featured": false,
+      "period": "May 2026 – May 2026",
+      "need": "Generar informes de manera rápida, ordenada y estandarizada.",
+      "summary": "Los informes se realizaban manualmente, consumiendo tiempo y generando inconsistencias.",
+      "solution": "Se estableció una estructura común y diseñé una aplicación en Python que completa automáticamente un template .docx, incluyendo texto e imágenes con descripción.",
+      "result": "Reducción significativa del tiempo de generación de informes y mejora en la calidad y consistencia.",
+      "observations": "",
+      "topics": [
+        "Arquitectura de Sistemas",
+        "Transformación Digital"
+      ],
+      "skills": [
+        "Desarrollo de aplicaciones",
+        "Gestión de Cambio",
+        "Resolución de Problemas"
+      ],
+      "technologies": [
+        "Python",
+        "PyQt6",
+        "Procesamiento de Imagenes"
+      ],
+      "evidences": [
+        {
+          "type": "Captura",
+          "title": "Generador de Informes",
+          "description": "Captura de pantalla de interfaz de la aplicación"
+        }
+      ],
+      "lessons": [
+        "Automatizar documentación libera tiempo para tareas de mayor valor.",
+        "Pequeñas automatizaciones pueden tener alto impacto operativo.",
+        "La consistencia en reportes mejora la comunicación organizacional y reduce errores."
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Centralización de alarmas (Paradox + Netio + Beat + App propia)",
+      "category": "Seguridad Electrónica",
+      "status": "Completado",
+      "featured": true,
+      "period": "Dic 2025 – May 2026",
+      "need": "Centralizar la gestión de alarmas de múltiples salas en una única interfaz.",
+      "summary": "Los sistemas estaban distribuidos, sin visibilidad unificada ni control central. \nServicios tercerizados de seguridad.",
+      "solution": "Se identificó el flujo: Panel Paradox, / comunicador (Netio) / nube (Beat) / aplicación y los tipos de eventos (pánico, incendio, etc.).\nCreé una aplicación en Python que recibe eventos desde la nube, los interpreta y los muestra en una interfaz con alertas visuales y sonoras, además de permitir comandos remotos (armar/desarmar).",
+      "result": "Sistema centralizado de monitoreo y control de alarmas, mejorando la capacidad de respuesta y la operación diaria.",
+      "observations": "Ha sido una aplicación estrella.",
+      "topics": [
+        "Arquitectura de Sistemas",
+        "Transformación Digital",
+        "Integración de Sistemas",
+        "Cloud"
+      ],
+      "skills": [
+        "Automatización",
+        "Desarrollo de aplicaciones",
+        "Diseño de Soluciones"
+      ],
+      "technologies": [
+        "Python",
+        "API",
+        "Alarmas"
+      ],
+      "evidences": [
+        {
+          "type": "Captura",
+          "title": "Aplicación de alarmas",
+          "description": "Pantalla principal de la aplicación"
+        },
+        {
+          "type": "Captura",
+          "title": "SplashScreen",
+          "description": "Pequeña pantalla de carga"
+        },
+        {
+          "type": "Documento",
+          "title": "Archivo Leame",
+          "description": "Archivo \"Léame\" detallando funcionamiento y explicando una aplicación adjunta."
+        }
+      ],
+      "lessons": [
+        "Los sistemas distribuidos requieren entender todo el flujo.",
+        "La interfaz de usuario en sistemas críticos debe priorizar claridad y rapidez de interpretación.",
+        "Integrar hardware + cloud + software propio es un diferencial técnico clave.",
+        "Este tipo de soluciones transforma operaciones reactivas en proactivas.",
+        "El manejo de eventos en tiempo real exige robustez ante fallos, latencia y pérdida de datos.",
+        "Diferenciar visual y sonoramente los tipos de alertas mejora la reacción operativa."
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Conversor de eventos JSON a CSV (para aplicación de alarmas)",
+      "category": "Analítica de Datos",
+      "status": "Completado",
+      "featured": false,
+      "period": "Abr 2026 – Abr 2026",
+      "need": "Analizar eventos de alarmas generados en formato JSON por aplicación de alarmas CCTV.",
+      "summary": "El formato JSON no es fácilmente utilizable como herramientas de análisis.\nEl archivo generado por la aplicación es un JSON complejo.",
+      "solution": "Script en Python que transforma archivos JSON a CSV estructurados.",
+      "result": "Datos listos para análisis en herramientas como Excel o Power BI.",
+      "observations": "",
+      "topics": [
+        "Automatización",
+        "Transformación Digital"
+      ],
+      "skills": [
+        "Modelado de Datos",
+        "Organización de la Información"
+      ],
+      "technologies": [
+        "Python",
+        "JSON",
+        "CSV"
+      ],
+      "evidences": [
+        {
+          "type": "Captura",
+          "title": "Aplicación",
+          "description": "Pantalla principal"
+        }
+      ],
+      "lessons": [
+        "La preparación de datos es una etapa crítica en cualquier proceso analítico.",
+        "Los logs operativos son una fuente valiosa de insights.",
+        "Convertir formatos correctamente evita pérdida de información."
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Generador de contraseñas seguras con encriptación",
+      "category": "Seguridad Electrónica",
+      "status": "Completado",
+      "featured": false,
+      "period": "Mar 2026 – Mar 2026",
+      "need": "Gestionar contraseñas seguras para múltiples equipos.",
+      "summary": "Uso prolongado de contraseñas, sin cambio periódico ni registro consistente, generando riesgos de seguridad.",
+      "solution": "Se definieron criterios de seguridad (longitud, complejidad, no repetición).\nDiseñé una aplicación en Python que genera contraseñas aleatorias seguras y las almacena en un vault encriptado para evitar reutilización.",
+      "result": "Mejora en la seguridad de accesos y control sobre credenciales utilizadas.",
+      "observations": "",
+      "topics": [
+        "Automatización",
+        "Transformación Digital"
+      ],
+      "skills": [
+        "Diseño de Soluciones",
+        "Gestión de Cambio",
+        "Consultoría"
+      ],
+      "technologies": [
+        "Python"
+      ],
+      "evidences": [
+        {
+          "type": "Captura",
+          "title": "Aplicación",
+          "description": "Pantalla principal con contraseñas generadas"
+        }
+      ],
+      "lessons": [
+        "La seguridad no depende solo de tecnología, sino de procesos consistentes.",
+        "Automatizar la generación de contraseñas elimina el factor humano como riesgo.",
+        "El almacenamiento seguro (vault) es tan importante como la generación."
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Sistema de gestión de playa de estacionamiento con biometría y videovigilancia",
+      "category": "Seguridad Electrónica",
+      "status": "En Progreso",
+      "featured": true,
+      "period": "Ene 2026 – Actualidad",
+      "need": "Controlar el acceso vehicular y la disponibilidad de la playa de estacionamiento de forma automatizada.\nReubicar personal de playa a puestos de vigilancia.",
+      "summary": "Se evaluó el uso de reconocimiento facial para validar usuarios, junto con conteo de plazas disponibles y control de barreras.",
+      "solution": "Creé una aplicación en Python que integra biométricos y equipos Dahua para validar accesos, gestionar disponibilidad de espacios y automatizar la apertura de barrera, incluyendo dashboard y controles manuales.",
+      "result": "Sistema automatizado de control de estacionamiento con mayor seguridad, trazabilidad y eficiencia operativa.",
+      "observations": "",
+      "topics": [
+        "Arquitectura de Sistemas",
+        "Automatización",
+        "Gestión de Procesos",
+        "Integración de Sistemas"
+      ],
+      "skills": [
+        "Desarrollo de aplicaciones",
+        "Transformación Digital",
+        "Diseño de Soluciones"
+      ],
+      "technologies": [
+        "Python",
+        "PyQt6",
+        "API",
+        "Procesamiento de Imagenes"
+      ],
+      "evidences": [
+        {
+          "type": "Captura",
+          "title": "Dashboard",
+          "description": "Pantalla principal de aplicacion"
+        },
+        {
+          "type": "Captura",
+          "title": "Flujo de trabajo",
+          "description": "Flujo de trabajo de la aplicación"
+        }
+      ],
+      "lessons": [
+        "La combinación de biometría + lógica de negocio permite automatizar decisiones complejas.",
+        "Siempre debe existir un modo manual para contingencias.",
+        "Controlar recursos físicos (espacios) agrega complejidad respecto a sistemas digitales.",
+        "La sincronización entre múltiples dispositivos es un desafío clave en arquitectura."
+      ]
+    },
+    {
+      "id": 19,
+      "title": "PROfolio – Sistema de gestión y documentación de proyectos",
+      "category": "Transformación Digital",
+      "status": "Completado",
+      "featured": true,
+      "period": "May 2026 – Jun 2026",
+      "need": "Organizar, documentar y comunicar proyectos de forma clara y profesional.",
+      "summary": "La información de proyectos suele estar desorganizada o difícil de presentar.\nJunto con la IA se definió un modelo estándar para proyectos incluyendo: necesidad, problema, solución, resultado, tecnologías, habilidades y evidencias.",
+      "solution": "Desarrollé esta aplicación que permite cargar, gestionar y exportar proyectos en formato estructurado, incluyendo generación de PDF estilo portfolio.",
+      "result": "Sistema centralizado que facilita la documentación, presentación y reutilización del conocimiento generado en proyectos.",
+      "observations": "· Convierte mi experiencia en un activo.\n· Redefine la forma de contar proyectos.\n· Permite generar portfolio profesional automáticamente.\n· Es un produto propio, no una solución puntual.",
+      "topics": [
+        "Gestión de Procesos",
+        "Documentación"
+      ],
+      "skills": [
+        "Desarrollo de aplicaciones",
+        "Consultoría"
+      ],
+      "technologies": [
+        "PyQt6",
+        "Python",
+        "SQL",
+        "pdf"
+      ],
+      "evidences": [
+        {
+          "type": "Captura",
+          "title": "Pantalla de la aplicación",
+          "description": "Pantalla principal de la aplicación."
+        }
+      ],
+      "lessons": [
+        "Documentar bien es tan valioso como desarrollar.",
+        "Estructurar la información mejora la comunicación profesional.",
+        "Un buen repertorio permite escalar conocimiento.",
+        "La claridad en narrativa técnica es clave para crecer profesionalmente."
+      ]
+    }
+  ]
+}
